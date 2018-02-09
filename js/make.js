@@ -294,7 +294,7 @@ window.onload = function () {
  
 //提示
     
-        $("#3d").mouseover(function(){
+$("#3d").mouseover(function(){
         var _this = $(this);
         _this.justToolsTip({
             animation:"moveInBottom",
@@ -303,7 +303,7 @@ window.onload = function () {
             gravity:'bottom'
         });
     })
-                $("#delete").mouseover(function(){
+$("#delete").mouseover(function(){
         var _this = $(this);
         _this.justToolsTip({
             animation:"moveInBottom",
