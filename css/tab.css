@@ -1,0 +1,43 @@
+
+
+.tabs UL.horizontal {
+	list-style: none outside none;
+	margin: 0;
+}
+
+.tabs ul LI {
+	background: white;
+	border-bottom: 4px solid #E5E5E5;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+
+.tabs ul A {
+	color: #ccc;
+	display: block;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 14px 24px;
+	text-decoration: none;
+}
+
+.tabs ul LI:hover {
+	background: #faa43d;
+	
+}
+
+.tabs ul LI:hover A {
+	color: white;
+}
+
+.tabs .active {
+	background: #faa43d !important;
+	border-bottom: 4px solid #Bbb!important;
+}
+
+.active A {
+	color: white !important;
+}
+
+
+

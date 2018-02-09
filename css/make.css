@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+body {
+ 
+}
+
+/*头部*/
+
+.header-section .make {
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    padding: 3px;
+}
+
+.header-section .make a {
+    color: #fff;
+}
+
+.header-section .make a:hover {
+    color: #faa43d;
+}
+
+/*搜索*/
+
+.search-mid form {
+    width: 300px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.search-mid input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+
+
+}
+
+.search-mid button {
+    position: absolute;
+       top:0px;
+       right: 5px;
+ 
+}
+
+
+/*左侧图片*/
+
+.pic {
+    overflow-x:hidden;
+    overflow-y: auto;
+    min-width: 200px;
+
+}
+
+.pic::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pic::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.pic::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #3DB6A4;
+}
+
+
+
+
+
+
+.show {
+    margin: 10px auto;
+}
+
+.item {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.item img {
+    height: 300px;
+    width: 300px;
+    
+}
+
+#show {
+    display: none;
+}
+
+.item i {
+    background: #565A5A;
+    text-align: center;
+    color: #eee;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    display: none;
+
+}
+
+.item:hover i {
+    display: block;
+
+}
+
+.item i:hover {
+    color: #fff;
+
+}
+
+/*侧边栏*/
+
+.sidebar {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    width: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    z-index: 999;
+   
+}
+.tabs LI:hover {
+	background:#fff;
+	
+}
+
+.tabs LI:hover A {
+	color:#faa43d;
+}
+
+.tabs .active {
+  color:#faa43d;
+
+}
+
+.sideba a {   
+    text-decoration: none;
+    color: #000;
+}
+.sidebar li{
+    margin-bottom: 30px;
+}
+
+.sidebar a:hover {
+    color: #faa43d;
+}
+
+.sidebar .side-box:nth-child(1) {
+    margin-top: 80px;
+}
+
+/*编辑栏*/
+
+/*提示*/
+
+
+
+/*按钮*/
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #565A5A;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    padding: 3px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 20px;
+}
+
+.operation {
+    position: relative;
+    overflow: hidden;
+    background: #eee;
+
+
+}
+
+.operation .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    /*    align-items: flex-start;*/
+    height: 48px;
+    padding: 0 22px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    align-items: center;
+}
+
+/*画布*/
+
+#trash {
+    width: 800px;
+    height: 600px;
+    margin: 70px auto;
+
+    box-shadow: 0 0 10px #aaa;
+
+}
+
+#c {
+
+
+    background: #fff;
+}
